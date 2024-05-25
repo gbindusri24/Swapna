@@ -1,8 +1,5 @@
-pip install seaborn
-import seaborn as sns
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 from sklearn.preprocessing import LabelEncoder, RobustScaler
 from sklearn.manifold import TSNE
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN
