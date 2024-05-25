@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 pip install seaborn
 import seaborn as sns
 import streamlit as st
