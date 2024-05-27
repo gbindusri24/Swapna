@@ -6,8 +6,9 @@ from sklearn.preprocessing import LabelEncoder, RobustScaler
 from sklearn.manifold import TSNE
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN
 from sklearn.metrics import silhouette_score
-
-
+import subprocess
+# Install scikit-learn using pip
+subprocess.call(['pip', 'install', 'scikit-learn'])
 def eda(df):
     # Replace 'None' or NaN values with the median of each column
     df = df.fillna(df.median())
