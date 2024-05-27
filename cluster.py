@@ -1,4 +1,4 @@
-pip install scikit-learn
+!pip install scikit-learn
 from sklearn.preprocessing import LabelEncoder, RobustScaler
 import streamlit as st
 import pandas as pd
