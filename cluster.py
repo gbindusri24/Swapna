@@ -1,7 +1,9 @@
+!pip install seabord
 !pip install scikit-learn
 from sklearn.preprocessing import LabelEncoder, RobustScaler
 import streamlit as st
 import pandas as pd
+import sebord as sns
 from sklearn.preprocessing import LabelEncoder, RobustScaler
 from sklearn.manifold import TSNE
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN
